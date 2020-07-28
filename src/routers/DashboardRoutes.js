@@ -9,7 +9,7 @@ import { SearchScreen } from '../components/search/SearchScreen'
 export const DashboardRoutes = () => {
     return (
        <Fragment>
-           <Navbar />
+           <Navbar/>
            <div className="container-fluid">
                <Switch>
                    <Route exact path="/marvel" component={MarvelScreen} />
